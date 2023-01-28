@@ -1,0 +1,78 @@
+* { 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+}
+
+.header-banner { 
+    position: relative;
+}
+
+.header-banner h1 { 
+ font-size: 95px;
+ position: absolute;
+ font-weight: 1000;
+ top: 180px;
+ left: 180px;
+}
+
+.header-banner img#logo-img { 
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 600px;
+    left: 1500px;
+}
+
+.header-banner img#banner-img { 
+    height: 600px;
+    width: 1800px;
+    border: 1px solid;
+    opacity: 90%;
+    position: relative;
+    margin: 150px 150px 0px 150px;
+}
+
+.header-navigate nav { 
+    position:absolute;
+    top: 1000px;
+    left: 200px;
+    font-size: 35px;
+} 
+
+.events-title h2 { 
+    background-color: black;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    height: 80px;
+    width: 1800px;
+    position: relative; 
+    left: 150px;
+}
+
+.header-navigate nav > a {
+    text-decoration: none;
+    color:rgb(50, 50, 224);
+    display: block;
+    width: 300px;
+    height: 200px;    
+}
+
+.events-days h3 { 
+    font-style: italic;
+    font-size: 35px;
+    position: relative;
+    height: 150px;
+    top: 165px;
+    left: 600px;
+}
+
+.events-days p { 
+    font-size: 35px;
+    position: relative; 
+    height: 40px;
+    top: 50px;
+    left: 620px;
+}
