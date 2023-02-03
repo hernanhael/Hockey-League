@@ -1,129 +1,154 @@
-/* General */
-
 * { 
-    padding: 0; 
-    margin: 0; 
+    padding: 0px; 
+    margin: 0px; 
     box-sizing: border-box;
-    font-family: 'Comic Neue', cursive;
-}
-
-main { 
-    height: 300px;
-    width: 720px;
-    position: relative;
-    top: 110px;
-    left: 400px;
-}
-
-.header-banner h1 { 
- font-size: 50px;
- position: absolute;
- font-weight: 1000;
- top: 150px;
- left: 160px;
-}
-
-.header-banner img#logo-img { 
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    top: 330px;
-    left: 900px;
-}
-
-.header-banner img#banner-img { 
-    height: 300px;
-    width: 1000px;
-    border: 1px solid;
-    opacity: 90%;
-    position: relative;
-    margin: 150px 150px 0px 150px;
-}
-
-.header-navigate nav { 
-    position:absolute;
-    top: 600px;
-    left: 200px;
-    font-size: 35px;
+    font-family: monospace;
+    /* font-family: 'Comic Neue', cursive; */
 } 
 
-.main-title h2 { 
+body { 
+    height: 100vh;
+    width: 100vw;
     background-color: black;
-    font-size: 30px;
-    color: white;
-    text-align: center;
-    height: 40px;
-    width: 1000px;
-    position: relative;
-    left: 150px; 
+    flex-wrap: nowrap;
 }
 
-.header-navigate nav > a {
-    text-decoration: none;
-    color:rgb(50, 50, 224);
-    display: block;
+/* Home */ 
+.header-container { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-img { 
+    height: 150px;
     width: 150px;
-    height: 100px;    
+    margin-top: 100px;
+}
+
+h1 { 
+    border: 3px solid rgba(255, 35, 35, 0.836);
+    border-top: 0;
+    border-radius: 10%;
+    font-size: 50px;
+    color: rgb(253, 209, 84);
+    height: 110px;
+    padding: 15px; 
+}
+
+.navigate-bar { 
+  position: relative; 
+  bottom: 15px;
+}
+
+.navigate-bar a { 
+    border: 1px solid rgb(253, 209, 84);
+    background-color: #6bb69d;
     font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin: 0px 3px 0px 3px;
+    padding: 3px 5px 3px 5px;
+    border-radius: 10%;
+}
+
+.main-title { 
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: rgb(253, 209, 84); 
+    text-align: center;
+    margin-top: 70px;
+    animation-name: mainTitle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 } 
 
-/* Home page */ 
+@keyframes mainTitle {
+    0% {font-style: normal;}
+    20% {font-style: italic;}
+    40% {font-style: normal;}
+    60% {font-style: italic;}
+    80% {font-style: normal;}
+    100% {font-style: italic;}
+}
 
-.events-days h3 { 
+.events-day { 
+    font-size: 20px;
+    color: rgb(253, 209, 84);
+    display: flex;
+    justify-content: center;
+}
+
+.events-day dt { 
+    font-size: 25px;
+    font-weight: bolder;
     font-style: italic;
+    padding-top: 60px;
+}
+
+/* About */
+.about-container { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px
+}
+
+.mision, .vision, .general-information { 
     font-size: 20px;
-    position: relative;
-    height: 30px;
+    color: rgb(253, 209, 84);
+    width: 600px;
+    padding-bottom: 50px;
 }
 
-.events-days p { 
-    font-size: 20px;
-    position: relative; 
-    height: 100px;
-} 
-
-/* About page */ 
-
-.mision { 
-   padding: 0px 20px 20px 0px;
+.mision h3, .vision h3, .general-information h3 { 
+    text-align: center;
+    padding-bottom: 10px;
 }
 
-.mision h3 { 
-    font-size: 25px;
-} 
 
-.mision p { 
-    font-size: 18px;
-}
-
-.vision { 
-    padding: 20px 0px 20px 0px;
-}
-.vision h3 { 
-    font-size: 25px;
-}
-
-.vision p { 
-    font-size: 18px;
-}
-
-.general-information { 
-    padding-bottom: 20px;
-}
-.general-information h3 { 
-    font-size: 25px;
-}
-
-.general-information p { 
-    font-size: 18px;
-}
-/* Contact page */ 
-
+/* Contact */
 .contact-information { 
     font-size: 20px;
-    
+    color: rgb(253, 209, 84);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
 }
 
 .contact-information p { 
-    padding: 0px 0px 25px 0px;
+    margin-top: 20px;
+}
+
+.contact-information a { 
+    color: #6bb69d;
+} 
+
+.contact-img, .home-img { 
+   display: flex;
+   margin-top: 100px;
+   justify-content: center;
+}
+
+.contact-img img, .home-img img { 
+    height: 300px;
+    width: 700px; 
+    border: 2px solid red;
+    margin-bottom: 50px;
+}
+
+/* Footer */
+footer { 
+    font-size: 15px;
+    color: rgb(253, 209, 84);   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px 50px 0px;
+} 
+
+footer p { 
+    padding-bottom: 12px
 }

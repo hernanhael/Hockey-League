@@ -5,6 +5,9 @@
     font-family: 'Comic Neue', cursive;
 } 
 
+list-style-type: none;
+}
+
 body { 
     height: 100vh;
     width: 100vw;
@@ -31,7 +34,7 @@ h1 {
     bottom: 280px;
     left: 800px;
     margin-left: 10px;
-}
+   
 
 .header-banner img#banner-img { 
     width: 800px;
@@ -57,6 +60,7 @@ h1 {
     width: 800px;
     padding-top: 5px;
     margin-left: 300px;
+    flex-direction: ;
 } 
 
 .events-days h3 { 
