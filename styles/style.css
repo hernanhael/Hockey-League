@@ -1,0 +1,218 @@
+* { 
+    padding: 0px; 
+    margin: 0px; 
+    box-sizing: border-box;
+    font-family: monospace;
+    /* font-family: 'Comic Neue', cursive; */
+} 
+
+body { 
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    flex-wrap: nowrap;
+}
+
+
+/* Home */ 
+.header-container { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-img { 
+    height: 150px;
+    width: 150px;
+    margin-top: 100px;
+}
+
+h1 { 
+    border: 3px solid rgba(255, 35, 35, 0.836);
+    border-top: 0;
+    border-radius: 10%;
+    font-size: 50px;
+    color: rgb(253, 209, 84);
+    height: 110px;
+    padding: 15px; 
+}
+
+.navigate-bar { 
+  position: relative; 
+  bottom: 15px;
+}
+
+.navigate-bar a { 
+    border: 1px solid rgb(253, 209, 84);
+    background-color: #6bb69d;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin: 0px 3px 0px 3px;
+    padding: 3px 5px 3px 5px;
+    border-radius: 10%;
+}
+
+.main-title { 
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: rgb(253, 209, 84); 
+    text-align: center;
+    margin-top: 70px;
+    animation-name: mainTitle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+} 
+
+@keyframes mainTitle {
+    0% {font-style: normal;}
+    20% {font-style: italic;}
+    40% {font-style: normal;}
+    60% {font-style: italic;}
+    80% {font-style: normal;}
+    100% {font-style: italic;}
+}
+
+.events-day { 
+    font-size: 20px;
+    color: rgb(253, 209, 84);
+    display: flex;
+    justify-content: center;
+}
+
+.events-day dt { 
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+    padding-top: 60px;
+}
+
+
+/* About */
+.about-container { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px
+}
+
+.mision, .vision, .general-information { 
+    font-size: 20px;
+    color: rgb(253, 209, 84);
+    width: 600px;
+    padding-bottom: 50px;
+}
+
+.mision h3, .vision h3, .general-information h3 { 
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+/* Contact */
+.contact-information { 
+    font-size: 20px;
+    color: rgb(253, 209, 84);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.contact-information p { 
+    margin-top: 20px;
+}
+
+.contact-information a { 
+    color: #6bb69d;
+} 
+
+.contact-img, .home-img { 
+   display: flex;
+   margin-top: 100px;
+   justify-content: center;
+}
+
+.contact-img img, .home-img img { 
+    height: 300px;
+    width: 700px; 
+    border: 2px solid red;
+    margin-bottom: 50px;
+}
+
+
+/* Footer */
+footer { 
+    font-size: 15px;
+    color: rgb(253, 209, 84);   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px 50px 0px;
+} 
+
+footer p { 
+    padding-bottom: 12px
+}
+
+
+/* Rules */
+.rules-header { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(253, 209, 84);
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+.rules { 
+    color:rgb(253, 209, 84);
+    font-size: 28px;
+    display: flex;
+    justify-content: left;
+    margin: 50px 150px 50px 150px;
+    
+} 
+
+.rules dl {
+    align-items: center;
+}
+
+.rules dt {
+    text-align: center;
+    padding: 50px 0px 30px 0px;
+}
+
+#coach { 
+    margin-left: 100px;
+}
+
+
+/* Game Info */
+table { 
+    color:rgb(253, 209, 84);
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+caption p { 
+    margin-bottom: 25px;
+}
+
+tr th { 
+    border: 1px solid grey;
+    justify-content: space-between;
+    padding: 20px 50px 10px 100px;
+}
+
+tr td { 
+    border: 1px solid grey;
+    justify-content: space-between;
+    padding: 10px 50px 10px 100px;
+}

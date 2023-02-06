@@ -1,0 +1,149 @@
+* { 
+    padding: 0px; 
+    margin: 0px; 
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+} 
+
+list-style-type: none;
+}
+
+body { 
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 { 
+    font-size: 39px;
+    width: 800px;
+    position: relative; 
+    bottom: 270px; 
+    left: 300px;
+}
+
+.header-navigate { 
+  font-size: 20px;    
+}
+
+.header-navigate a { 
+    background-color: blue;
+    color: white;
+    border: 3px solid black;
+    text-decoration: none;
+    position: relative;
+    bottom: 280px;
+    left: 800px;
+    margin-left: 10px;
+   
+
+.header-banner img#banner-img { 
+    width: 800px;
+    height: 300px;
+    margin: 100px 0px 0px 300px;
+    border: 2px solid black; 
+    position: relative; 
+    top: 80px;
+} 
+
+.header-banner img#logo-img { 
+    height: 150px;
+    width: 150px;
+    position: absolute; 
+    top: 520px;
+    left: 320px;
+}
+
+.main-title { 
+    border: 2px solid black;
+    font-size: 18px;
+    text-align: center;
+    width: 800px;
+    padding-top: 5px;
+    margin-left: 300px;
+    flex-direction: ;
+} 
+
+.events-days h3 { 
+    font-style: italic;
+    font-size: 20px;
+    position: relative;
+    height: 40px;
+    top: 40px;
+    left: 550px;
+}
+
+.events-days p { 
+    font-size: 20px;
+    position: relative; 
+    height: 50px;
+    top: 22px;
+    left: 560px;
+} 
+
+.mision { 
+    padding: 0px 20px 20px 0px;
+ }
+ 
+ .mision h3 { 
+     font-size: 25px;
+     position: relative; 
+     top: 22px;
+     left: 560px;
+ } 
+ 
+ .mision p { 
+     font-size: 18px;
+     width: 500px;
+     position: relative; 
+     top: 22px;
+     left: 560px;
+ }
+ 
+ .vision { 
+     padding: 20px 0px 20px 0px;
+ }
+ .vision h3 { 
+     font-size: 25px;
+     position: relative; 
+     top: 22px;
+     left: 560px;
+ }
+ 
+ .vision p { 
+     font-size: 18px;
+     width: 500px;
+     position: relative; 
+     top: 22px;
+     left: 560px;
+ }
+ 
+ .general-information { 
+     padding-bottom: 20px;
+ }
+ 
+ .general-information h3 { 
+     font-size: 25px;
+     position: relative; 
+     top: 22px;
+     left: 560px;
+ }
+ 
+ .general-information p { 
+     font-size: 18px;
+     width: 500px;
+     position: relative; 
+     top: 22px;
+     left: 560px;
+ }
+
+.contact-information { 
+    font-size: 20px;
+    
+}
+
+.contact-information p { 
+    position: relative; 
+    top: 22px;
+    left: 540px;
+    padding: 0px 0px 25px 0px;
+}
